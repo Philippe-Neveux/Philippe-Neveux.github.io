@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Philippe Neveux
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Philippe  
+last_name: Neveux
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Senior Machine Learning Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
