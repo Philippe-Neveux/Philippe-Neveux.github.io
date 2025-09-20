@@ -6,7 +6,7 @@ title: Philippe Neveux
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Philippe  
+first_name: Philippe
 last_name: Neveux
 
 # Pronouns (optional)
@@ -33,19 +33,13 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+  - icon: custom/handshake2
+    url: 'mailto:phil.neveux@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/Philippe-Neveux
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/philippe-neveux/
 
 interests:
   - Large Language Models
@@ -116,6 +110,22 @@ skills:
         percent: 85
         icon: cloud
   - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking in the Rockies
+        description: ''
+        percent: 80
+        icon: person-simple-walk
+      - name: Building Custom PCs
+        description: ''
+        percent: 90
+        icon: cpu-chip
+      - name: Sci-Fi Reading
+        description: ''
+        percent: 70
+        icon: book-open
+  - name: A third columns
     color: '#eeac02'
     color_border: '#f0bf23'
     items:

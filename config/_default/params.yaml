@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: indigo
+  mode: light
+  color: green # indigo, teal
 
 # SEO
 marketing:
@@ -32,25 +32,32 @@ header:
     enable: true
     block: 'navbar'
     fixed_to_top: true
-    show_search: true
-    show_theme_chooser: true
+    show_search: false
+    show_theme_chooser: false
+    highlight_active_link: true
+    show_translations: true
     logo:
-      text: 'Your Name'
+      text: 'Philippe Neveux'
+    button:
+      enable: true
+      text: "Contact me on LinkedIn"
+      url: "https://www.linkedin.com/in/philippe-neveux/"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Philippe Neveux. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  show_translations: true
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2 Jan 2006'
+  time_format: '15:04'
 
 # Site features
 features:

@@ -29,6 +29,96 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: resume-skills
+    content:
+      username: "admin"
+      title: "My skills"
+      text: "This is sample text content for the section."
+    design:
+      background:
+        # color: ""
+        gradient_start: "#4f46e5"
+        gradient_end: "#7c3aed"
+        text_color_light: true
+      spacing:
+        padding: ["16", "16", "16", "16"]
+      columns: "3"
+  - block: stats
+    content:
+      items:
+        - statistic: "50K+"
+          description: "Happy Users"
+        - statistic: "99.9%"
+          description: "Uptime"
+        - statistic: "24/7"
+          description: "Support"
+    design:
+      background:
+        color: "gray-900"
+        text_color_light: true
+      columns: "3"
+  - block: markdown
+    id: section-2
+    content:
+      title: Section 2
+      subtitle: A subtitle
+      text: Add your Section 2 content here...
+    design:
+      background:
+        # Choose colors such as from https://html-color-codes.info
+        gradient_start: '#52bf90'
+        gradient_end: '#317256'
+        # The gradient angle from 0-360 degrees
+        gradient_angle: 45
+        # Text color (true=light, false=dark, or remove for the dynamic theme color).
+        text_color_light: true
+  - block: testimonials
+    content:
+      title: "What Our Users Say"
+      items:
+        - name: "John Doe"
+          role: "Product Manager"
+          organization: "Tech Company"
+          avatar: "path/to/avatar.jpg"
+          content: "This platform has revolutionized how we build websites!"
+        - name: "Jane Smith"
+          role: "Designer"
+          organization: "Creative Agency"
+          content: "The blocks are beautiful and so easy to customize."
+    design:
+      columns: "2"
+  - block: resume-awards
+    content:
+      username: "admin"
+      title: "My Section Title"
+      text: "This is sample text content for the section."
+    design:
+      background:
+        color: ""
+        gradient_start: "#4f46e5"
+        gradient_end: "#7c3aed"
+        text_color_light: true
+      spacing:
+        padding: ["6", "6", "6", "6"]
+      columns: "1"
+  - block: features
+    content:
+      title: "Amazing Features"
+      text: "Discover what makes our platform special"
+      items:
+        - name: "Fast Performance"
+          description: "Lightning-fast load times for better user experience"
+          icon: "bolt"
+        - name: "Easy to Use"
+          description: "Intuitive interface that anyone can master"
+          icon: "heart"
+        - name: "Secure"
+          description: "Enterprise-grade security built-in"
+          icon: "shield-check"
+    design:
+      columns: "3"
+      background:
+        color: "gray-50"
   - block: markdown
     content:
       title: '📚 My Research'
