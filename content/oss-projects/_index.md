@@ -1,9 +1,9 @@
 ---
-title: Publications
+title: Open Source Projects
 cms_exclude: true
 
 # View.
-view: citation
+view: oss-projects
 
 # Optional header image (relative to `static/media/` folder).
 banner:
