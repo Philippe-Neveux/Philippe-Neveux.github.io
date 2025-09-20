@@ -6,10 +6,10 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '2rem'
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -32,6 +32,7 @@ sections:
 
 
   - block: markdown
+    id: services
     content:
       title: ''
       subtitle: ''
@@ -42,14 +43,11 @@ sections:
 
         </div>
 
-        | <font size="7">Deploy MLOps Platform</font> | <font size="7">Deploy ML Use cases</font> | <font size="7">Upskill your AI Team</font> |
-        |---|---|---|
-        | Bablablabla | Blablabla | blablabla |
     design:
       columns: '1'
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ["0", "50px", "0", "0"]
+        padding: ["20px", "0px", "0", "0"]
 
 
   - block: stats
@@ -71,7 +69,6 @@ sections:
         padding: ["0", "0", "0", "0"]
       
   - block: cta-image-paragraph
-    id: solutions
     content:
       items:
         - title: Deploy MLOps Platform
@@ -111,17 +108,36 @@ sections:
             text: Button to my methodology
             url: https://discord.gg/z8wNYzb
 
-  - block: markdown
+  - block: stats
     content:
-      # title: 'Why my clients trust me ? 🤝'
-      subtitle: ''
-      text: |-
-          <b> <span style="font-size: 35px;">Why my clients trust me ? 🤝</span> </b>
+      items:
+        - statistic: "30"
+          description: "Data Scientists use my last deployed ML Platform"
+        - statistic: "50%"
+          description: "Reducing time to deploy AI systems in Production "
+        - statistic: "300"
+          description: "Trained Clients and colleagues to Data Science / Machine Learning Engineering"
     design:
+      background:
+        color: "gray-900"
+        text_color_light: true
+      columns: "2"
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
         padding: ["0", "0", "0", "0"]
+
+  # - block: markdown
+  #   content:
+  #     # title: 'Why my clients trust me ? 🤝'
+  #     subtitle: ''
+  #     text: |-
+  #         <b> <span style="font-size: 35px;">Why my clients trust me ? 🤝</span> </b>
+  #   design:
+  #     spacing:
+  #       # Customize the section spacing. Order is top, right, bottom, left.
+  #       padding: ["0", "0", "0", "0"]
   - block: features
+    id: clients-projects
     content:
       title: "My Clients projects"
       text: "Spent 7+ years resolving business problems with ML / AI systems"
@@ -151,6 +167,7 @@ sections:
 
 
   - block: resume-experience
+    id: experiences
     content:
       username: admin
     design:
@@ -158,20 +175,35 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-skills
-    content:
-      username: "admin"
-      title: "My skills"
-      text: "This is sample text content for the section."
-    design:
-      background:
-        # color: ""
-        gradient_start: "#4f46e5"
-        gradient_end: "#7c3aed"
-        text_color_light: true
-      spacing:
-        padding: ["16", "16", "16", "16"]
-      columns: "3"
+  # - block: resume-skills
+  #   content:
+  #     username: "admin"
+  #     title: "My skills"
+  #     text: "This is sample text content for the section."
+  #   design:
+  #     background:
+  #       # color: ""
+  #       gradient_start: "#4f46e5"
+  #       gradient_end: "#7c3aed"
+  #       text_color_light: true
+  #     spacing:
+  #       padding: ["30", "30", "30", "30"]
+  #     columns: "3"
+  
+  # - block: resume-languages
+  #   content:
+  #     username: "admin"
+  #     title: "My Languages"
+  #     text: 
+  #   design:
+  #     background:
+  #       color: ""
+  #       # gradient_start: "#4f46e5"
+  #       # gradient_end: "#7c3aed"
+  #       # text_color_light: true
+  #     # spacing:
+  #     #   padding: ["6", "6", "6", "6"]
+  #     # columns: "1"
 
   
   # - block: cta-card
@@ -187,19 +219,6 @@ sections:
   #       css_class: "bg-primary-700"
   #       css_style: ""
 
-
-  # - block: markdown
-  #   content:
-  #     title: '📚 My Research'
-  #     subtitle: ''
-  #     text: |-
-  #       Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-  #       I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-  #       Please reach out to collaborate 😃
-  #   design:
-  #     columns: '1'
   - block: collection
     id: oss-projects
     content:
@@ -210,16 +229,8 @@ sections:
     design:
       view: article-grid
       columns: 3
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ''
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
+
+
   # - block: collection
   #   id: talks
   #   content:
@@ -273,7 +284,16 @@ sections:
   #     spacing:
   #       padding: ["6", "6", "6", "6"]
   #     columns: "1"
-
+  - block: collection
+    content:
+      title: Blog posts
+      text: ''
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
   - block: testimonials
     content:
       title: "What My Clients Say"
@@ -291,8 +311,8 @@ sections:
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-      columns: "2"
+        padding: [0, 0, 0, 0]
+      columns: "1"
   - block: hero
     content:
       title: If you'd like to work with me 👇

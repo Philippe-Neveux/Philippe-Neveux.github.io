@@ -10,7 +10,7 @@ first_name: Philippe
 last_name: Neveux
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: 
 
 # Status emoji
 status:
@@ -27,19 +27,19 @@ role: Senior Machine Learning Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Freelance
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: custom/handshake2
+  - icon: at-symbol
     url: 'mailto:phil.neveux@gmail.com'
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/Philippe-Neveux
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/philippe-neveux/
+  - icon: brands/github
+    url: https://github.com/Philippe-Neveux
+  
 
 interests:
   - Large Language Models
@@ -143,10 +143,10 @@ skills:
         icon: book-open
 
 languages:
+  - name: French
+    percent: 100
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
