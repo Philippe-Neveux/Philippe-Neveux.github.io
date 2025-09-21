@@ -10,12 +10,12 @@ main:
   - name: Services
     url: /#services
     weight: 11
-  - name: Clients Projects
-    url: /#clients-projects
+  - name: Clients & O.S. Projects
+    url: /#projects
     weight: 12
   - name: Experiences
     url: /#experiences
     weight: 13
-  - name: Open Source Projects
-    url: /#oss-projects
-    weight: 20
+  - name: Skills
+    url: /#skills
+    weight: 14

@@ -95,21 +95,21 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Machine Learning 
     items:
       - name: Python & PyTorch
         description: ''
-        percent: 95
+        # percent: 95
         icon: code-bracket
-      - name: Machine Learning
+      - name: databricks
         description: ''
-        percent: 100
-        icon: chart-bar
+        # percent: 100
+        icon: custom/databricks_logo
       - name: Cloud Computing (AWS/GCP)
         description: ''
-        percent: 85
+        # percent: 85
         icon: cloud
-  - name: Hobbies
+  - name: Cloud
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
@@ -125,7 +125,7 @@ skills:
         description: ''
         percent: 70
         icon: book-open
-  - name: A third columns
+  - name: DevOps
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
@@ -142,6 +142,23 @@ skills:
         percent: 70
         icon: book-open
 
+  - name: Management
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking in the Rockies
+        description: ''
+        percent: 80
+        icon: person-simple-walk
+      - name: Building Custom PCs
+        description: ''
+        percent: 90
+        icon: cpu-chip
+      - name: Sci-Fi Reading
+        description: ''
+        percent: 70
+        icon: book-open
+  
 languages:
   - name: French
     percent: 100
