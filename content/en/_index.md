@@ -4,9 +4,9 @@ title: ''
 date: 2022-10-24
 type: landing
 
-design:
-  # Default section spacing
-  spacing: '2rem'
+# design:
+#   # Default section spacing
+#   spacing: ''
 
 sections:
   - block: resume-biography
@@ -47,7 +47,7 @@ sections:
       columns: '1'
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ["35px", "0px", "0", "0"]
+        padding: ["0", "0", "0", "0"]
       # background:
       #   color: "navy"
 
@@ -109,6 +109,12 @@ sections:
           button:
             text: Button to my methodology
             url: https://discord.gg/z8wNYzb
+    design:
+      css_class: "tight-spacing"
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ["0px", "0", "0", "0"]
+        margin: [0, 0, 0, 0]
 
   - block: stats
     content:
@@ -127,6 +133,8 @@ sections:
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
         padding: ["0", "0", "0", "0"]
+        margin: [0, 0, 0, 0]
+      css_class: "tight-spacing"
 
   # - block: markdown
   #   content:
