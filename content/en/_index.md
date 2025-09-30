@@ -110,7 +110,7 @@ sections:
             text: Button to my methodology
             url: https://discord.gg/z8wNYzb
     design:
-      css_class: "tight-spacing"
+      # css_class: "tight-spacing"
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
         padding: ["0px", "0", "0", "0"]
@@ -134,7 +134,7 @@ sections:
         # Customize the section spacing. Order is top, right, bottom, left.
         padding: ["0", "0", "0", "0"]
         margin: [0, 0, 0, 0]
-      css_class: "tight-spacing"
+      # css_class: "tight-spacing"
 
   # - block: markdown
   #   content:

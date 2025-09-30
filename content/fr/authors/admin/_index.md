@@ -193,4 +193,9 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Après **6 ans** à travailler sur des projets de Machine Learning en tant que Data Scientist et Machine Learning Engineer dans une société de conseil parisienne en Data et Intelligence Artificielle, je continue d’exercer cette profession qui m’amine en 2026 en région PACA, plus particulièrement près de Nice / Sofia-Antipolis. 
+J’ai à coeur d’accompagner mes clients pour tirer un **maximum de valeur de leur projets IA** accordant un maximum de place à la modélisation et connaissance business des équipes data Sciences tout en assurant une excellence opérationnelle pour assurer un ROI positif des projets IA en production
+C’est pour cela que j’accompagne mes clients à **trois niveaux tout au long du développement de leurs produits IA**: 
+1. **Le design et le déploiement de plateformes IA**
+2. **Le développement de produits IA**
+3. **La formation & Upskills des équipes Data Sciences et Machine Learning Engineer.**
