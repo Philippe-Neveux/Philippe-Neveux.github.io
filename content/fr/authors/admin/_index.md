@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Philippe Neveux This is French
+title: Philippe Neveux
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -41,11 +41,11 @@ profiles:
     url: https://github.com/Philippe-Neveux
   
 
-interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+# interests:
+#   - Large Language Models
+#   - Computer Vision
+#   - Reinforcement Learning
+#   - AI Ethics
 
 work:
   - position: Manager | Data Scientist | ML engineer
@@ -84,16 +84,16 @@ work:
       text: 'Read Thesis'
       url: 'https://cytech.cyu.fr/formations-cy-tech/ingenieurs'
 
-education:
-  - area: Diplôme d'ingénieur, spécialité Data Science
-    institution: CY Tech (anciennement E.I.S.T.I)
-    date_start: 2014-09-01
-    date_end: 2019-09-01
-    summary: |
-      TODO
-    button:
-      text: 'Read Thesis'
-      url: 'https://cytech.cyu.fr/formations-cy-tech/ingenieurs'
+# education:
+#   - area: Diplôme d'ingénieur, spécialité Data Science
+#     institution: CY Tech (anciennement E.I.S.T.I)
+#     date_start: 2014-09-01
+#     date_end: 2019-09-01
+#     summary: |
+#       TODO
+#     button:
+#       text: 'Read Thesis'
+#       url: 'https://cytech.cyu.fr/formations-cy-tech/ingenieurs'
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -196,8 +196,10 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Après **6 ans** à travailler sur des projets de Machine Learning en tant que Data Scientist et Machine Learning Engineer dans une société de conseil parisienne en Data et Intelligence Artificielle, je continue d’exercer cette profession qui m’amine en 2026 en région PACA, plus particulièrement près de Nice / Sofia-Antipolis. 
-J’ai à coeur d’accompagner mes clients pour tirer un **maximum de valeur de leur projets IA** accordant un maximum de place à la modélisation et connaissance business des équipes data Sciences tout en assurant une excellence opérationnelle pour assurer un ROI positif des projets IA en production
+Après **6 ans** à travailler sur des projets de Machine Learning en tant que Data Scientist et Machine Learning Engineer dans une société de conseil parisienne en Data et Intelligence Artificielle, je continue d’exercer cette profession qui m’amine en 2026 en région PACA, plus particulièrement près de Nice / Sophia-Antipolis. 
+
+J’ai à coeur d’accompagner mes clients sur des **projets IA drivés par la valeur** accordant une grande place à la modélisation et connaissance business. L'excellence opérationnelle est un des leviers pour des ROI positifs.
+
 C’est pour cela que j’accompagne mes clients à **trois niveaux tout au long du développement de leurs produits IA**: 
 1. **Le design et le déploiement de plateformes IA**
 2. **Le développement de produits IA**

@@ -32,7 +32,7 @@ header:
     enable: true
     block: 'navbar'
     fixed_to_top: true
-    show_search: false
+    show_search: true
     show_theme_chooser: false
     highlight_active_link: true
     show_translations: true
@@ -40,7 +40,7 @@ header:
       text: 'Philippe Neveux'
     button:
       enable: true
-      text: "Contact me on LinkedIn"
+      text: "LinkedIn"
       url: "https://www.linkedin.com/in/philippe-neveux/"
 
 # Site footer

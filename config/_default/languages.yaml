@@ -10,6 +10,7 @@ en:
   title: English website title...
   params:
     description: Site description in English...
+  
 
 
 # Uncomment the lines below to configure your website in a second language.
@@ -19,22 +20,6 @@ fr:
   title: French website title...
   params:
     description: Site description in French...
-
-  header:
-    navbar:
-      enable: true
-      block: 'navbar'
-      fixed_to_top: true
-      show_search: false
-      show_theme_chooser: false
-      highlight_active_link: true
-      show_translations: true
-      logo:
-        text: 'Philippe Neveux'
-      button:
-        enable: true
-        text: "Contactez moi sur LinkedIn"
-        url: "https://www.linkedin.com/in/philippe-neveux/"
 
   # menu:
 #    main:

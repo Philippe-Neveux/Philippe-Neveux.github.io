@@ -9,19 +9,16 @@ type: landing
 #   spacing: ''
 
 sections:
-  - block: resume-biography
+  - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
-      # headings:
-      #   about: 'This about'
-      #   education: 'This is education'
-      #   interests: 'This intereste'
+      headings:
+        about: 'Résumé'
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
@@ -33,18 +30,6 @@ sections:
   - block: hero
     content:
       title: 
-      # primary_action:
-      #   text: Let's connect on Linkedin
-      #   url: https://www.linkedin.com/in/philippe-neveux/
-      #   icon: rocket-launch
-      # secondary_action:
-      #   text: Read the docs
-      #   url: https://docs.hugoblox.com
-      # announcement:
-      #   text: "Announcing the release of version 1."
-      #   link:
-      #     text: "Read more"
-      #     url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -58,9 +43,12 @@ sections:
           filename: convictions.svg
           # filters:
           #   brightness: 0.5
-          size: cover
+          #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+          size: contain
+          # Image focal point. Options include `left`, `center` (default), or `right`.
           position: center
-          parallax: true
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: false
 
 
   - block: markdown
@@ -107,40 +95,41 @@ sections:
     content:
       items:
         - title: Designer et déployer des plateformes IA
-          text: Permettrent à vos équipes de développer des produits IA, du POC à la Production, en toute autonomie
-          feature_icon: check
+          text: Permettre à vos équipes de développer des produits IA, du POC à la mise en Production, en toute autonomie
+          feature_icon: bolt
           features:
-            - Une plateforme adaptée à votre SI et vos compétences internes
             - Une conception en collaboration avec vos équipes opérationnelles et de gouvernance 
-            - Des choix technologiques modernes et fléxible pour une évolutivité dans le temps   
+            - Une plateforme adaptée à votre SI et vos compétences internes
+            - Des choix technologiques modernes et flexibles pour une évolutivité dans le temps
+            - Autonomie des équipes et handover. Copetence humaine pour l'evolutivité de la plateforme  
           # Upload image to `assets/media/` and reference the filename here
           image: 'Workflow 3.png'
           button:
-            text: Ma Méthode
+            text: Voir mon experience client
             url: https://hugoblox.com/templates/
         - title: Développement de produits IA
           text: Apporter une excellence opérationnelle pour délivrer des produits IA à forte valeur ajoutée 
           feature_icon: bolt
           features:
-            - Construire avec les équipes opérationnelles des produits IA de bout en bout
             - Travailler en étroite collaboration avec les équipes métier pour atteindre leurs objectifs
-            - Appliquer les meilleurs pratiques de DevOps et Software Engineering pour des livraisons régulières et fiables
+            - Construire avec les équipes opérationnelles des produits IA de bout en bout
+            - Appliquer les meilleurs pratiques de DevOps et Software Engineering pour des livraisons régulières et fiables tout en assurant la montée en compétences des équipes
           # Upload image to `assets/media/` and reference the filename here
           image: 'Team Coding.png'
           button:
-            text: Ma Méthode
+            text: Voir mon experience client
             url: https://discord.gg/z8wNYzb
         - title: Former vos équipes IA
           text: Accélérer et robustifier la production de produits IA à l'echelle
-          feature_icon: arrow-trending-up
+          feature_icon: bolt
           features:
-            - Former vos équipes aux outils et méthodologie de développements de produits IA
+            - Former vos équipes aux outils et méthodologies de développement de produits IA
             - Structurer et standardiser les pratiques de développement de vos équipes Data Science / ML Engineer
-            - Coacher vos équipes au quotidien afin d'améliorer leur vélocité et prise de recul en projet.
+            - Suivre vos équipes au quotidien afin d'améliorer leur vélocité et prise de recul en projet ()
           # Upload image to `assets/media/` and reference the filename here
           image: 'Workflow 1.png'
           button:
-            text: Ma Méthode
+            text: Voir mon experience client
             url: https://discord.gg/z8wNYzb
     design:
       # css_class: "tight-spacing"
@@ -169,16 +158,6 @@ sections:
         margin: [0, 0, 0, 0]
       # css_class: "tight-spacing"
 
-  # - block: markdown
-  #   content:
-  #     # title: 'Why my clients trust me ? 🤝'
-  #     subtitle: ''
-  #     text: |-
-  #         <b> <span style="font-size: 35px;">Why my clients trust me ? 🤝</span> </b>
-  #   design:
-  #     spacing:
-  #       # Customize the section spacing. Order is top, right, bottom, left.
-  #       padding: ["0", "0", "0", "0"]
   - block: collection
     id: projects
     content:
@@ -254,6 +233,7 @@ sections:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: [0, 0, 0, 0]
       columns: "1"
+
   - block: hero
     content:
       title: If you'd like to work with me 👇
@@ -286,24 +266,5 @@ sections:
           size: cover
           position: center
           parallax: true
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
 
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-primary-700'
-        css_style: ''
 ---
