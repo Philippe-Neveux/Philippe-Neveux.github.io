@@ -48,22 +48,33 @@ profiles:
 #   - AI Ethics
 
 work:
-  - position: Manager | Data Scientist | ML engineer
+  - position: Manager ML engineer | Data Scientist
     company_name: Capgemini Invent
     company_url: 'https://www.capgemini.com/about-us/who-we-are/our-brands/capgemini-invent/'
     company_logo: 'capgemini_logo.png'
     date_start: 2024-01-01
     date_end: 2026-07-31
-    summary: |2-
-      TODO
+    summary: |
+      1. Mise en production de 7 cas d'usage ML après avoir **développé la plateforme MlOps** d'un grand groupe automobile internationnal (Databricks, Github, Airflow, TeamCity, Terraform) utilisé par plus de 30 data scientists.
+
+      2. Manager de plateau assurant le bon niveau de compétence des consultants en projet et intervenant pour **débloquer des situations complexes** (revue de méthode de travail, accélérateur du delivery, aide au design complexe, ...)
+
+      3. Interlocuteur privilégié pour la **rédaction de proposition d'accompagnement de formation IA de Confiance**.
+
   - position: Senior ML Engineer | Data Scientist
     company_name: Quantmetry
     company_url: 'https://www.capgemini.com/news/press-releases/capgemini-signs-agreement-to-acquire-quantmetry-to-enrich-its-ai-and-data-consulting-capabilities-in-france/'
     company_logo: 'quantmetry_logo.jpeg'
     date_start: 2022-01-01
-    date_end: 2024-12-31
+    date_end: 2023-12-31
     summary: |
-      TODO
+      1. Intervention pour le développement et la **mise en production de cas d'usage ML** (série temporelle, classification, regression) dans des environnement clouds Azure et databricks. Les secteurs clients étaient la banque et l'industrie automobile.
+
+      2. Co-construction d'une **méthodologie d'audit de cas d'usage IA** suivant les principes de l'IA de Confiance (robustesse, performance, explicabilité, responsabilité, explicabilité, maitrise des biais, cycle de vie des modèles) et audit de 4 cas d'usage chez un acteur des télécoms.
+
+      3. Responsable formation et pilotage de la **montée en compétence de 300 collaborateurs** (tous les profils data Capgemini Invent) sur l'IA de Confiance. Participation au comité de pilotage et à la production de l'offre IA de Confiance de Capgemini Invent.
+
+
   - position: Data Scientist
     company_name: Quantmetry
     company_url: 'https://www.capgemini.com/news/press-releases/capgemini-signs-agreement-to-acquire-quantmetry-to-enrich-its-ai-and-data-consulting-capabilities-in-france/'
@@ -71,7 +82,12 @@ work:
     date_start: 2019-11-03
     date_end: 2021-12-31
     summary: |
-      TODO
+      1. Développements de **modèles de ML sur des données de séries temporelles** (prévision de chiffre d'affaire et budget) et des modèles de scoring marketing dans le domaine du luxe. **Mise en production de ces modèles sur une stack AWS **(Mlflow, EC2, S3, airflow, Grafana, Jenkins).
+
+      2. Participation à la **rédaction du livre blanc "IA de Confiance"** de la société de conseil Quantmetry.
+     
+      3. Alimentation d'un Data Warehouse à partir de source de base de données métiers éparses (SQL, Java, Talend)
+      
   - position: Data Scientist
     company_name: Primagaz
     company_url: 'https://www.primagaz.fr'
@@ -79,10 +95,11 @@ work:
     date_start: 2018-09-01
     date_end: 2019-11-03
     summary: |
-      TODO
-    button:
-      text: 'Read Thesis'
-      url: 'https://cytech.cyu.fr/formations-cy-tech/ingenieurs'
+      Data Scientist dans l'équipe Customer Insight & Analytics de Primagaz
+
+      - Création d'un Dashboard dynamique (Power BI) mettant en avant l'activité du porte-feuille client.
+      - Fiabilisation d'un flux de données complexe (SQL Server, Mongo DB).
+      - Classification d’emails de commentaires clients (score NPS), algorithme de machine learning sur des données textuelles.
 
 # education:
 #   - area: Diplôme d'ingénieur, spécialité Data Science
@@ -196,9 +213,9 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Après **6 ans** à travailler sur des projets de Machine Learning en tant que Data Scientist et Machine Learning Engineer dans une société de conseil parisienne en Data et Intelligence Artificielle, je continue d’exercer cette profession qui m’amine en 2026 en région PACA, plus particulièrement près de Nice / Sophia-Antipolis. 
+Après **6 ans** à travailler sur des projets de Machine Learning en tant que Data Scientist et **Machine Learning Engineer** dans une société de conseil parisienne en Data et Intelligence Artificielle, je continue d’exercer cette profession qui m’amine en 2026 en **région PACA**, plus particulièrement près de Nice / Sophia-Antipolis. 
 
-J’ai à coeur d’accompagner mes clients sur des **projets IA drivés par la valeur** accordant une grande place à la modélisation et connaissance business. L'excellence opérationnelle est un des leviers pour des ROI positifs.
+J’ai à coeur d’accompagner mes clients sur des **projets IA drivés par la valeur** accordant une grande place à la modélisation et connaissance business. L'excellence opérationnelle, l'application des **meilleures méthodologies Data Science (IA de Confiance)** accompagné des **meilleurs pratiques de Software Engineering / DevOps**, est un de mes principaux leviers pour des ROI positifs fiables.
 
 C’est pour cela que j’accompagne mes clients à **trois niveaux tout au long du développement de leurs produits IA**: 
 1. **Le design et le déploiement de plateformes IA**

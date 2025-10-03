@@ -1,5 +1,5 @@
 ---
-title: "Un pipeline ETL de bout en bout"
+title: "a RAG to chat with documents"
 authors:
 - admin
 author_notes:
@@ -11,8 +11,9 @@ date: "2015-09-01T00:00:00Z"
 publishDate: "2017-01-01T00:00:00Z"
 
 tags:
-- Data Engineering
+- Generative AI
 - Open Source
+
 
 links:
   - type: code

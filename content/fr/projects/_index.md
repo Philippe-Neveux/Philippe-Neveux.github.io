@@ -1,9 +1,9 @@
 ---
-title: My Clients & Open Source Projects
+title: Clients & Open Source Projects
 cms_exclude: true
 
 # View.
-view: projects
+view: article-grid
 
 # Optional header image (relative to `static/media/` folder).
 banner:

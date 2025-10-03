@@ -4,9 +4,6 @@ title: ''
 date: 2022-10-24
 type: landing
 
-# design:
-#   # Default section spacing
-#   spacing: ''
 
 sections:
   - block: resume-biography-3
@@ -27,15 +24,17 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
 
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ["0", "0", "0", "0"]
+        margin: [0, 0, 0, 0]
+
   - block: hero
     content:
       title: 
     design:
-      spacing:
-        padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
-      css_class: "min-h-screen"
+      # css_class: "min-h-screen"
       background:
         # color: "navy"
         image:
@@ -54,22 +53,27 @@ sections:
   - block: markdown
     id: services
     content:
-      title: ''
-      subtitle: ''
       text: |-
         <div style="text-align: center;">
 
         # Mes services
 
+          <div style="color: black;">
+
+          Des offres modulables pour votre propre besoin et selon votre maturité Data / IA
+
+          </div>
+
         </div>
 
     design:
-      columns: '1'
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
         padding: ["0", "0", "0", "0"]
+        margin: [0, 0, 0, 0]
       # background:
       #   color: "navy"
+    
 
 
   # - block: stats
@@ -93,15 +97,16 @@ sections:
       
   - block: cta-image-paragraph
     content:
+      title: "Mes services"
+      text: "Discover what makes our platform special"
       items:
         - title: Designer et déployer des plateformes IA
           text: Permettre à vos équipes de développer des produits IA, du POC à la mise en Production, en toute autonomie
           feature_icon: bolt
           features:
-            - Une conception en collaboration avec vos équipes opérationnelles et de gouvernance 
-            - Une plateforme adaptée à votre SI et vos compétences internes
+            - Une conception en collaboration avec vos équipes opérationnelles (Infrastructure, Data Scientists, ML Engineer, Data Engineer) et de gouvernance
+            - Une plateforme adaptée à votre SI et vos compétences internes rendant son utilisation, sa maintenance et son évolutivité la plus fluide pour vos équipes.
             - Des choix technologiques modernes et flexibles pour une évolutivité dans le temps
-            - Autonomie des équipes et handover. Copetence humaine pour l'evolutivité de la plateforme  
           # Upload image to `assets/media/` and reference the filename here
           image: 'Workflow 3.png'
           button:
@@ -111,9 +116,10 @@ sections:
           text: Apporter une excellence opérationnelle pour délivrer des produits IA à forte valeur ajoutée 
           feature_icon: bolt
           features:
-            - Travailler en étroite collaboration avec les équipes métier pour atteindre leurs objectifs
-            - Construire avec les équipes opérationnelles des produits IA de bout en bout
-            - Appliquer les meilleurs pratiques de DevOps et Software Engineering pour des livraisons régulières et fiables tout en assurant la montée en compétences des équipes
+            - Travailler en étroite collaboration avec les équipes métiers pour atteindre des objectifs réalistes 
+            - Construire avec les équipes opérationnelles des produits IA de l'idéation des cas d'usage à leur run en suivant les meilleurs pratiques méthodologiques de l'IA de Confiance (performance, robustesse, cycle de vie des modèles, explicabilité, etc)
+            - Appliquer les meilleurs pratiques de Software Engineering et DevOps (versionning, reproductibilité, automatisation, etc) pour des livraisons régulières et fiables tout en assurant la montée en compétences des équipes
+            - Faire échouer rapidement les projets à faible valeur ajoutée et fiabiliser ceux dont le ROI positif est prouvé
           # Upload image to `assets/media/` and reference the filename here
           image: 'Team Coding.png'
           button:
@@ -123,9 +129,9 @@ sections:
           text: Accélérer et robustifier la production de produits IA à l'echelle
           feature_icon: bolt
           features:
-            - Former vos équipes aux outils et méthodologies de développement de produits IA
+            - Former vos équipes aux derniers outils et méthodologies de développement de produits IA (théorie & pratique) personnalisées pour vos équipes
             - Structurer et standardiser les pratiques de développement de vos équipes Data Science / ML Engineer
-            - Suivre vos équipes au quotidien afin d'améliorer leur vélocité et prise de recul en projet ()
+            - Suivre vos équipes au quotidien afin d'améliorer leur vélocité et prise de recul en projet (design, ateliers, peer programming, etc)
           # Upload image to `assets/media/` and reference the filename here
           image: 'Workflow 1.png'
           button:
@@ -146,7 +152,7 @@ sections:
         - statistic: "50%"
           description: "de temps réduit pour passer un produit IA en production"
         - statistic: "300"
-          description: "clients / collègues formés à la Data Science / ML Engineering"
+          description: "collaborateurs formés à la Data Science / ML Engineering"
     design:
       background:
         color: "gray-900"
@@ -165,9 +171,18 @@ sections:
       filters:
         folders:
           - projects
+        offset: 0
     design:
       view: article-grid
       columns: 3
+      show_date: false
+      # show_read_time: false
+      show_read_more: false
+      fill_image: false
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ["60px", "0", "0", "0"]
+        margin: [0, 0, 0, 0]
 
 
   - block: resume-experience
@@ -179,40 +194,62 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ["60px", "0", "0", "0"]
+        margin: [0, 0, 0, 0]
 
   - block: features
     id: skills
     content:
-      title: "My Skills"
-      text: "Discover what makes our platform special"
+      title: "Mes compétences"
+      text: "6+ années à déployer des algorithmes de ML / AI dans des infrastructures clouds"
       items:
         - name: "Développement logiciel Python"
-          description: "6+ ans de développement Python sur des projets de ML dont la majorité utilisée en production utilisant des frameworks modernes de qualité: uv, pydantic, pytest, fastAPI "
-          icon: "devicon/python"
+          description: "Développement Python sur des **projets de ML utilisés en production** utilisant des frameworks modernes de qualité: uv, pydantic, pytest, fastAPI "
+          icon: "custom/python"
+
         - name: "Data Processing"
-          description: "Framework de data processing selon la volumétrie de données à disposition: numpy, pandas, polars, pyspark, SQL (Snowflake, AWS Athena). Orchestrateur de pipeline de données: Airflow"
-          icon: "devicon/python"
+          description: "Framework de data processing **selon la volumétrie de données à disposition**: numpy, pandas, polars, pyspark, SQL (Snowflake, AWS Athena). Orchestrateur de pipeline de données: Airflow"
+          icon: "custom/data"
+
         - name: "Machine Learning"
-          description: "Développement d'IA prédictive (classification, régression, time series, NLP, ... ). Frameworks utilisé: plotly, streamlit, scikit-learn, XgBoost/LightGBM, Huggingface, ..."
-          icon: "devicon/azure"
-        - name: "Cycle de vie des modèles IA"
+          description: "Développement d'**IA prédictive** (classification, régression, time series, NLP, ... ). Frameworks: plotly, streamlit, scikit-learn, XgBoost/LightGBM, Huggingface, .... Et d'**IA Générative** (RAG). Frameworks: LangChain, Huggingface, Qdrant, ..."
+          icon: "custom/machine-learning"
+
+        - name: "IA de Confiance"
           description: |
-            Méthodologie et framework pour passer un produit IA du POC à la production: MlFlow, Airflow, 
-          icon: "devicon/azure"
+            Méthodologie scientifiques et techniques basé sur les risques pour assurer des développements de produits IA en accords avec les **objectifs business et éthique de l'entreprise** (Performance, Robustesse, explicabilité, analyse des biais, cycle de vie des modèles, etc)
+          icon: "custom/ia-confiance"
+
+        - name: "MlOps"
+          description: |
+            Application de concepts DevOps appliqué au machine learning: **CI / CD, déploiement d'application containerisé, gestion d'environnement, Infrastructure as Code, gestion de serveur**. Les frameworks maitrisés: Git, Github Action, TeamCity, Azure DevOps, Docker, Kubernetes, Terraform, Ansible, Packer.
+          icon: "custom/devops"
+
         - name: "Databricks"
-          description: "Développement d'une plateforme IA sur Databricks pendant 2 ans pour une 30aine de Data Scientists. Frameworks utilisés: Databricks Asset Bundle, Workflow Databricks, MlFlow, Unity Catalog."
+          description: "Développement d'une **plateforme IA sur Databricks pour une 30aine de Data Scientists** pendant 2 ans. Frameworks utilisés: Databricks Asset Bundle, Workflow Databricks, MlFlow, Unity Catalog et Team City/Terraform pour la CI/CD."
           icon: "custom/databricks_logo"
-        - name: "Azure Machine Learning"
-          description: "Mise en production de 2 modèles de crédits bancaires déployés dans des API délivrant 15 000 prédictions à la semaine"
-          icon: "custom/azure_ml_logo"
+
+        - name: "AWS"
+          description: "Mise en production d'un **modèle de scoring marketing sur une stack hébergé sur un AWS**. Frameworks: Mlflow, Airflow, EC2, S3, Athena, Jenkins, Prometheus, Grafana"
+          icon: "custom/aws"
+
+        - name: "Azure"
+          description: "Utilisant le service de ML managé **Azure Machine Learning**, mise en production de 2 modèles de crédits bancaires déployés dans des API délivrant 15 000 prédictions à la semaine. Frameworks: Kedro, Mlflow, Azure Pipelines, AKS et Azure DevOps pour la CI/CD"
+          icon: "devicon/azure"
         
         - name: "Management"
-          description: "TODO"
-          icon: "shield-check"
+          description: "Management opérationnel (production conjointe) et de pilotage (suivi des tâches hebdomadaires) sur plusieurs projets Data Sciences en parallèle assurant la **communication entre le client (Head of AI) et les équipes opérationnelles** projets ainsi que le bon niveau de production requis"
+          icon: "custom/management2"
     design:
       columns: "3"
       background:
         color: "gray-50"
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ["0", "0", "0", "0"]
+        margin: [0, 0, 0, 0]
 
   - block: testimonials
     content:
