@@ -114,32 +114,33 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: 'Workflow 3.png'
           button:
-            text: Voir mon experience client
+            text: Voir mon expérience client
             url: https://hugoblox.com/templates/
         - title: Développement de produits IA
           text: Apporter une excellence opérationnelle pour délivrer des produits IA à forte valeur ajoutée 
           feature_icon: bolt
           features:
-            - Travailler en étroite collaboration avec les équipes métiers pour atteindre des objectifs réalistes 
             - Construire avec les équipes opérationnelles des produits IA de l'idéation des cas d'usage à leur run en suivant les meilleurs pratiques méthodologiques de l'IA de Confiance (performance, robustesse, cycle de vie des modèles, explicabilité, etc)
-            - Appliquer les meilleurs pratiques de Software Engineering et DevOps (versionning, reproductibilité, automatisation, etc) pour des livraisons régulières et fiables tout en assurant la montée en compétences des équipes
+            - Travailler en étroite collaboration avec les équipes métiers pour atteindre des objectifs pertinents et réalistes (ateliers pédagogiques sur l'IA, co-construction de KPI cibles)
             - Faire échouer rapidement les projets à faible valeur ajoutée et fiabiliser ceux dont le ROI positif est prouvé
+            - Appliquer les meilleurs pratiques de Software Engineering et DevOps (versionning, reproductibilité, automatisation, etc) pour des livraisons régulières et fiables tout en assurant la montée en compétences des équipes (Peer Programming, revus de code)
+            
           # Upload image to `assets/media/` and reference the filename here
           image: 'Team Coding.png'
           button:
-            text: Voir mon experience client
+            text: Voir mon expérience client
             url: https://discord.gg/z8wNYzb
         - title: Former vos équipes IA
-          text: Accélérer et robustifier la production de produits IA à l'echelle
+          text: Accélérer et robustifier la production de produits IA à l'échelle
           feature_icon: bolt
           features:
             - Former vos équipes aux derniers outils et méthodologies de développement de produits IA (théorie & pratique) personnalisées pour vos équipes
             - Structurer et standardiser les pratiques de développement de vos équipes Data Science / ML Engineer
-            - Suivre vos équipes au quotidien afin d'améliorer leur vélocité et prise de recul en projet (design, ateliers, peer programming, etc)
+            - Suivre vos équipes au quotidien afin d'améliorer leur vélocité et prise de recul en projet (design, ateliers, Peer Programming, etc)
           # Upload image to `assets/media/` and reference the filename here
           image: 'Workflow 1.png'
           button:
-            text: Voir mon experience client
+            text: Voir mon expérience client
             url: https://discord.gg/z8wNYzb
     design:
       # css_class: "tight-spacing"
@@ -152,7 +153,7 @@ sections:
     content:
       items:
         - statistic: "30"
-          description: "Data Scientist utilisaient ma dernière plateforme IA"
+          description: "Data Scientists utilisent ma dernière plateforme IA"
         - statistic: "50%"
           description: "de temps réduit pour passer un produit IA en production"
         - statistic: "300"
@@ -244,8 +245,20 @@ sections:
           icon: "devicon/azure"
         
         - name: "Management"
-          description: "**Management opérationnel** (production conjointe) et de pilotage (suivi des tâches hebdomadaires) sur plusieurs projets Data Sciences en parallèle assurant la **communication entre le client (Head of AI) et les équipes opérationnelles** projets ainsi que le bon niveau de production requis"
+          description: "**Management opérationnel** (production conjointe, design, ateliers et Peer Programming) et **de pilotage** (définition et priorisation des tâches, validation de qualité de delivery) sur **plusieurs projets Data Sciences en parallèle**. Sélection de consultants sur projets selon les compétences recherchés par le client."
           icon: "custom/management2"
+
+        - name: "Design de formation & Formateur"
+          description: "Création de contenus pédagogiques et animation de plus d'une **vingtaine de formations pour former environ 300 collaborateurs** (clients et internes) sur des thématiques diverses: Data Sciences général, IA de Confiance, python, SQL. Formateurs de la Yotta Academy, **bootcamp Machine Learninng Engineer** créé en 2020."
+          icon: "custom/learn2"
+
+        - name: "Communication"
+          description: "Fluidifier les échanges en assurant l**e bon niveau de communication** entre le client (Head of AI), les équipes opérationnelles projets ainsi que les équipes métiers. **Embarquer et animer une équipe interne** sur l'IA de Confiance pour développer l'offre de formation sur le sujet."
+          icon: "custom/communication"
+
+        - name: "Maîtrise de la langue anglaise"
+          description: "**Mission chez plusieurs clients en contexte internationnal** (Italie, États-Unis, Espagne, Allemagne). Formation IA de Confiance à destination d'une 50aine de collaborateurs au États-Unis. **Travail pendant 1 an en Nouvelle-Zélande (2025)**."
+          icon: "custom/english"
     design:
       columns: "3"
       background:
