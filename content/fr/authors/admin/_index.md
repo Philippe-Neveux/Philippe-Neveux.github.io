@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior Machine Learning Engineer
+role: Senior Machine Learning Engineer  Tech Lead
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -215,7 +215,7 @@ awards:
 
 Après **6 ans** à travailler sur des projets de Machine Learning en tant que Data Scientist et **Machine Learning Engineer** dans une société de conseil parisienne en Data et Intelligence Artificielle, je continue d’exercer cette profession qui m’amine en 2026 en **région PACA**, plus particulièrement près de Nice / Sophia-Antipolis. 
 
-J’ai à coeur d’accompagner mes clients sur des **projets IA drivés par la valeur** accordant une grande place à la modélisation et connaissance business. L'excellence opérationnelle, l'application des **meilleures méthodologies Data Science (IA de Confiance)** accompagné des **meilleurs pratiques de Software Engineering / DevOps**, est un de mes principaux leviers pour des ROI positifs fiables.
+J’ai à coeur d’accompagner mes clients sur des **projets IA drivés par la valeur** accordant une grande place à la modélisation et connaissance business. L'excellence opérationnelle, l'application des **meilleures méthodologies Data Science (IA de Confiance)** accompagné des **meilleurs pratiques de Software Engineering / DevOps**, est un de mes principaux leviers pour des **ROI positifs fiables**.
 
 C’est pour cela que j’accompagne mes clients à **trois niveaux tout au long du développement de leurs produits IA**: 
 1. **Le design et le déploiement de plateformes IA**

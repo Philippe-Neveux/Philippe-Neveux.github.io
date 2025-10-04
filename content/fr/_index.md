@@ -18,7 +18,7 @@ sections:
         about: 'Résumé'
     design:
       # Apply a gradient background
-      css_class: hbx-bg-gradient
+      css_class: hbx-bg-gradient 
       # Avatar customization
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
@@ -27,19 +27,23 @@ sections:
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
         padding: ["0", "0", "0", "0"]
-        margin: [0, 0, 0, 0]
+        margin: [0, 0, "100px", 0]
 
   - block: hero
     content:
       title: 
     design:
+      # spacing:
+      #   # Customize the section spacing. Order is top, right, bottom, left.
+      #   padding: ["0", "0", "0", "0"]
+      #   margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
       # css_class: "min-h-screen"
       background:
         # color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: convictions.svg
+          filename: convictions2.svg
           # filters:
           #   brightness: 0.5
           #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
@@ -240,7 +244,7 @@ sections:
           icon: "devicon/azure"
         
         - name: "Management"
-          description: "Management opérationnel (production conjointe) et de pilotage (suivi des tâches hebdomadaires) sur plusieurs projets Data Sciences en parallèle assurant la **communication entre le client (Head of AI) et les équipes opérationnelles** projets ainsi que le bon niveau de production requis"
+          description: "**Management opérationnel** (production conjointe) et de pilotage (suivi des tâches hebdomadaires) sur plusieurs projets Data Sciences en parallèle assurant la **communication entre le client (Head of AI) et les équipes opérationnelles** projets ainsi que le bon niveau de production requis"
           icon: "custom/management2"
     design:
       columns: "3"
